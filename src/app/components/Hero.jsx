@@ -3,6 +3,9 @@ import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import AnnouncementBanner from "./Banner";
+
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -41,34 +44,41 @@ const Hero = () => {
       </div>
 
       <div className="flex justify-center relative my-20 z-10">
-        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-            
-          <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Meet Bladex Solution
+        <div className="max-w-[59vw] md:max-w-2xl lg:max-w-[40vw] flex flex-col items-center justify-center">
+        
 
-            
-          </p>
+        <div>
+        <Link href="/blog"> {/* Replace with your desired URL */}
+        <AnnouncementBanner message="why we started Bladex Lab?" />
+      </Link>
+    </div>
+        
+
 
           {/**
            *  Link: https://ui.aceternity.com/components/text-generate-effect
            *
            *  change md:text-6xl, add more responsive code
            */}
+
+
           <TextGenerateEffect
-            words="New Cuttting Edge Technologies "
+            words="a new cutting edge AI Agency"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl font-thin">
-            AI | GenAI | LLM | AI Agents
+
+
+          <p className="text-center md:tracking-wider mb-8 text-sm md:text-lg lg:text-xl font-thin">
+            your vision, our expertise
           </p>
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-sm lg:text-2xl font-thin">
-            Building Autonomous AI workforces
-          </p>
+          <span className="inline-block backdrop-blur-md bg-white/30 text-white-800 font-thin py-2 px-5 rounded-full" style={{ fontFamily: 'Poppins, sans-serif' }}>
+          AI Agents | AI Visuals
+</span>
 
           <a href="#about">
             <MagicButton
-              title="view our work"
+              title="continue"
               icon={<FaLocationArrow />}
               position="right"
             />

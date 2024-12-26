@@ -1,14 +1,8 @@
 import { getSortedPostsData } from '../lib/blog';
 import Link from 'next/link';
-import { PinContainer } from '../components/ui/Pin';
 import { FloatingNav } from "../components/ui/FloatingNavbar";
+import { navItems } from '../data/index';
 
-const navItems = [
-    { name: "Home", link: "/" },  
-    { name: "Blogs", link: "/blog" },
-    { name: "About", link: "#about" },
-    { name: "Contact", link: "#contact" },
-  ];
 
 export default async function BlogPage() {
   const posts = await getSortedPostsData();
@@ -32,49 +26,52 @@ export default async function BlogPage() {
               <span className="relative ml-4">Posts</span>
             </span>
           </h1>
-          <p className="text-lg leading-7 text-zinc-400">
-            Thoughts, ideas, and discoveries from my journey in tech and beyond.
+          <p className="text-lg leading-7 text-zinc-400 ">
+            thoughts, ideas, and discoveries from my journey in tech and beyond.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
-          {posts.map((post) => (
-            <div key={post.id} className="group relative flex flex-col space-y-3">
-              <div className="h-[25rem] w-full">
-                <PinContainer 
-                  title={post.title}
-                  href={`/blog/${post.id}`}
-                >
-                  <Link href={`/blog/${post.id}`} className="block h-full">
-                    <div className="p-4 relative flex flex-col h-full max-w-xl mx-auto">
-                      <h2 className="font-bold text-2xl mb-2 text-zinc-100">
-                        {post.title}
-                      </h2>
-                      <p className="text-zinc-400 flex-grow">
-                        {post.description}
-                      </p>
-                      <div className="mt-auto flex items-center justify-between">
-                        <p className="text-sm text-zinc-400">{post.date}</p>
-                        {post.tags && (
-                          <div className="flex gap-2 flex-wrap">
-                            {post.tags.map((tag) => (
-                              <span
-                                key={tag}
-                                className="px-3 py-1 bg-zinc-800/50 text-zinc-300 rounded-full text-sm"
-                              >
-                                {tag}
-                              </span>
-                            ))}
-                          </div>
-                        )}
-                      </div>
-                    </div>
-                  </Link>
-                </PinContainer>
+        <div className="justify-center">
+  {posts.map((post) => (
+    <div key={post.id} className="group relative flex w-full "> {/* Ensure full width */}
+      <Link href={`/blog/${post.id}`} className="block w-full m-3">
+        <div className="p-4 flex flex-col h-full bg-gradient-to-b from-white-300 to-blue-800 rounded-lg shadow-md border border-white-500">
+          <div className="flex-shrink"> {/* This allows the content to take remaining space */}
+            <h2 className="font-bold text-2xl mb-2 text-white-800">
+              {post.title}
+            </h2>
+            <p className="text-zinc-300 flex-shrink">
+              {post.description}
+            </p>
+            <div className="mt-auto flex items-center justify-between">
+              <p className="text-sm text-zinc-400">{post.date}</p>
+              <div className="flex items-center gap-4"> {/* Adjust gap here */}
+                {post.image && (
+                  <div className="w-10 h-10 bg-gray-200 rounded-2xl overflow-hidden flex-shrink-0">
+                    <img src={post.image} alt={post.title} className="w-full h-full object-cover rounded-lg" />
+                  </div>
+                )}
+                {post.tags && (
+                  <div className="flex gap-2 flex-wrap">
+                    {post.tags.map((tag) => (
+                      <span
+                        key={tag}
+                        className="px-3 py-1 bg-zinc-800/50 text-zinc-300 rounded-full text-sm"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                )}
               </div>
             </div>
-          ))}
+          </div>
         </div>
+      </Link>
+    </div>
+  ))}
+</div>
+
       </div>
     </div>
   );

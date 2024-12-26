@@ -8,14 +8,11 @@ function Approach() {
   const title = (
     <div className="flex flex-col items-center justify-center h-[40vh]">
       <h1 className="text-4xl md:text-6xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
-        Welcome to <br />
+        we are building copilot for interacting with large customers<br />
         <span className="text-5xl md:text-8xl font-extrabold mt-4 leading-none bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-cyan-500">
-          New Era of Industry
+         Bladex AI 
         </span>
       </h1>
-      <p className="text-neutral-400 text-base md:text-lg mt-4 max-w-2xl text-center mx-auto">
-        Transforming ideas into digital reality with cutting-edge technology and innovative solutions
-      </p>
     </div>
   );
 
@@ -35,9 +32,9 @@ function Approach() {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent rounded-2xl" />
           <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
-            <h2 className="text-3xl font-bold mb-2">Future Forward</h2>
+            <h2 className="text-3xl font-bold mb-2">Deploying on whatsapp</h2>
             <p className="text-lg text-gray-200">
-              Embracing innovation and technological advancement
+            a new way to interact with customer at large scale
             </p>
           </div>
         </div>

@@ -1,14 +1,16 @@
 export const navItems = [
-    { name: "Home", link: "#home" },  
-    { name: "Blogs", link: "/blog" },
-    { name: "About", link: "#about" },
-    { name: "Contact", link: "#contact" },
+  { name: "home", link: "/" },
+  { name: "blogs", link: "/blog" },
+  { name: "about", link: "#about" },
+  { name: "ai agents", link: "/ai-agent" },
+  { name: "ai visuals", link: "ai-visual" },
+  { name: "contact", link: "#contact" },
   ];
   
   export const gridItems = [
     {
       id: 1,
-      title: "We create AI agents which listens yours and take actions",
+      title: "We create AI specialised agents for your any specific needs",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh] bg-[#10132E]",
       imgClassName: "w-full h-full bg-[#10132E]/80 backdrop-blur-sm",
@@ -38,35 +40,26 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "We are full stack service provider from website to AI with state of Art Approaches.",
+      title: "we have inhouse advanced workflows for creating aligned and consistent visuals for your story",
       description: "",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-      imgClassName: "",
+      className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+      imgClassName: "filter brightness-50",
       titleClassName: "justify-start",
-      img: "/grid.svg",
+      img: "/animate_diff.png",
       spareImg: "/b4.svg",
     },
   
     {
       id: 5,
-      title: "Currently building Copilot for Customer Communication Automation",
-      description: "The Inside Scoop",
-      className: "md:col-span-3 md:row-span-2",
+      title: "We create best workflows wheither that is for media or for your any business problems",
+      description: "Our USP",
+      className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
       img: "/Vector.svg",
       spareImg: "/grid.svg",
     },
-    {
-      id: 6,
-      title: "Do you want to start a project together?",
-      description: "",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-      imgClassName: "",
-      titleClassName: "justify-center md:max-w-full max-w-60 text-center",
-      img: "",
-      spareImg: "",
-    },
+    
   ];
   
   
@@ -127,15 +120,15 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "AI chatbot",
-      desc: "Fully configurable chatbot directly Integrated with Whatsapp or in your Website",
+      title: "AI Agents and chatbots",
+      desc: "Fully configurable advanced agentic chatbot directly Integrated with Whatsapp or in your Website",
       className: "md:col-span-2",
       thumbnail: "/chatbot.png",
     },
     {
       id: 2,
-      title: "AI Agentic Apps",
-      desc: "We create self autonomous AI Apps which can make decisions by itself mean No need to do manual tasks",
+      title: "AI Visuals",
+      desc: "Advanced complex workflows for creating consistent scenes, characters , audios and visuals",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },

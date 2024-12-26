@@ -36,8 +36,8 @@ export default function RecentPost() {
       <section id="blogs" className="py-20 w-full">
         <div className="max-w-7xl mx-auto px-4">
           <h1 className="heading">
-            A small selection of{" "}
-            <span className="text-purple">Recent Blogs</span>
+            Read our {" "}
+            <span className="text-purple">Recent Blogs </span>
           </h1>
           <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 mt-10">
             {[1, 2, 3].map((i) => (
@@ -75,7 +75,7 @@ export default function RecentPost() {
     <section id="blogs" className="py-20 w-full">
       <div className="max-w-7xl mx-auto px-4">
         <h1 className="heading">
-          A small selection of{" "}
+          Read our {" "}
           <span className="text-purple">Recent Blogs</span>
         </h1>
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 mt-10">
