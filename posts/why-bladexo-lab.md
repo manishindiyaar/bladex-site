@@ -3,7 +3,7 @@ title: 'why we started Bladexo?'
 date: '2024-12-29'
 description: 'why do we call it a lab?'
 image: '/post_assets/manish.jpg'
-tags: ['nextjs', 'markdown', 'blog']
+tags: ['bladexo', 'bladexo_lab']
 ---
 
 # The Lab: Reimagining New Era Through Technology
