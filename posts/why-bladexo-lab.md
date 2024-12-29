@@ -3,77 +3,56 @@ title: 'why we started Bladexo?'
 date: '2024-12-29'
 description: 'why do we call it a lab?'
 image: '/post_assets/manish.jpg'
-tags: ['bladexo', 'bladexo_lab']
+tags: ['bladexo', 'bladexo_lab', 'why_lab']
 ---
-
-# The Lab: Reimagining New Era Through Technology
-
 It is not an agency, not a company, or a business.
 
-It’s Lab. 
+# It’s Lab. 
 
 & why do we call it a lab?
 
-Every revolution starts with a simple question. Mine began in a classroom, sitting at a desk in 10th grade, wondering: "Why can't physics be taught through film?"
+You know, when I was in 10th or maybe 11th grade, I often wondered why there weren't any films focused on core subjects like physics or history. I wished for a film that could teach each chapter as an episode, especially in physics. How amazing would that be? 
 
-It wasn't just an idle thought—it was the seed of something bigger. In those moments, watching my classmates struggle with complex concepts, I imagined a world where education could be as engaging as cinema. Where learning wouldn't feel like work at all.
+Everyone would be excited to watch it, and no one would have to put in much effort to learn.
 
-I wished for a film that could teach each chapter as an episode, especially in physics. How amazing would that be? 
-
-## Sparking Ideas never dies.
-
-Fast forward to 2024, and I often wonder why those things seemed impossible in the past.
+When I look back, I often wonder why those things seemed impossible in the past.
 
 Some of you might say that creating a film requires a lot of money and manpower, right?
 
-The barriers that once made film production an exclusive domain of big studios have changed. Today, with determination and creativity, a single person can produce a film at a fraction of the cost—up to 1000 times cheaper than before.
+However, that has changed in 2024. Now, a person with a story and the determination to make it happen can produce a film alone, and the cost is a fraction—up to 1000 times cheaper—than before.
 
-This isn't just about making movies; it's about revolutionizing how we learn and communicate. That's why we're not an agency, company, or business. We're a Lab.
+We are at the forefront of the AI revolution, reimagining the film and media industry.
 
-It’s a new category that is not replacing films, just adding one more advanced layer that will create a new world of stories.
+we are very proud to say that we are not getting left behind.
 
-## Our First Steps
+Every week we experiment with new models, and new workflows and get our hands dirty and the reason is simple we are seeing the vision, a vision that will shape the future generation.
 
-In July 2024, we took our first leap. Over 30 intense days, dedicating 7-8 hours daily, we immersed ourselves in the cutting edge of AI technology:
+We launched our first film in the last week of July 2024. 
 
-- Mastering diffusion models
-- Experimenting with the groundbreaking Flux open-source model
-- Training voice systems
-- Perfecting image consistency
-- Learning ComfyUI
-- Crafting compelling narratives
+Over the next 30 days, we dedicated 7-8 hours daily to this project. During that time, we began learning about diffusion models, and a new open-source model called Flux was released, which we experimented with as well. We learned how to train voices and maintain consistency in the images. We also started using ComfyUI and began writing my story script. After a month of hard work, we successfully uploaded the film on YT. Although it did not look like a film, I was satisfied with that because I got a taste of the future of the media industry.
 
-The result? Our first film on YouTube. While it might not have looked like a traditional film, it represented something far more valuable—and I got a taste of the future of the media industry.
-
-## A Personal Journey
+It was all just experimentation.
 
 Similarly, let me share another story. I come from a very underprivileged, tier-3 village, where advanced technology like smartphones was rare. The first time I saw a smartphone interacting with a human, I was amazed (I didn’t realize it was just Google Assistant). The way I felt at that moment is one of the reasons why I am working on these types of projects. 
 
-## The AI Revolution
+I’ve been involved with large language models (LLMs) for quite a while, and it’s all about interacting with users through conversation.
 
-Our journey with Large Language Models (LLMs) has been transformative and it’s all about interacting with users through conversation. 
+I’m grateful that I’ve been able to experiment with this technology, which has fascinated me since my childhood.
+
+When AI was emerging, I started from reading research papers to building apps with ai, i went all the way.
 
 As large language models (LLMs) improved, new features were introduced, including function calling. This means we can invoke external APIs or data within the LLM's input or output as JSON. While this may seem straightforward, it marks the beginning of a new era—an era of autonomy means a system that can take action on behalf of itself.
 
-## Our Vision
+for memory for LLM applications, Retrieval-Augmented Generation (RAG), also known as semantic search, involves searching not by if-else logic but by using context.
 
 We are proud to announce that we are working on something that will revolutionize the way businesses connect with their customers. We are a co-pilot for customer service that will allow to make messages and calls at scale autonomously.
 
-But this is just the beginning. We're building more than technology—we're creating a community. By partnering with companies and like-minded individuals, we're fostering an environment where innovation serves a greater purpose: the betterment of our country.
+so yeah it is all just experimentation. 
 
-This isn't just a lab—it's a movement. A place where:
+I will create whatever adds value to society, whether it is for-profit or Non-for Profit
 
-- Cutting-edge technology meets practical application
-- Education is reimagined for the new era
-- Innovation serves a social purpose
-- Value creation is our main priority
+Apart from that, we are also creating a community where like-minded people can come together and create something for the betterment of the country, for that we are partnering with a few companies and communities.
 
-Whether through for-profit or non-profit initiatives, our mission remains constant: to create solutions that add genuine value to society.
+It’s a Lab about new cutting-edge Technologies.
 
-## Join Our Journey
-
-If you share our vision of using technology to transform education and society, there's a place for you here. 
-
-Together, we're not just experimenting with new technologies—we're shaping the future of learning, one innovation at a time.
-
-Welcome to The Bladexo Lab. Where impossible dreams become tomorrow's reality.
+it’s a lab about Education.

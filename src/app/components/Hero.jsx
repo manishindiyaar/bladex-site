@@ -4,6 +4,7 @@ import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import AnnouncementBanner from "./Banner";
+import DoubleHeroButton from "./DoubleHeroButton";
 
 import Link from "next/link";
 
@@ -49,7 +50,7 @@ const Hero = () => {
 
         <div>
         <Link href="/blog"> {/* Replace with your desired URL */}
-        <AnnouncementBanner message="why we started Bladex Lab?" />
+        <AnnouncementBanner message="why we started Bladexo Lab?" />
       </Link>
     </div>
         
@@ -63,22 +64,20 @@ const Hero = () => {
 
 
           <TextGenerateEffect
-            words="a new cutting edge AI Agency"
+            words="we automate 70% of your work"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
 
 
           <p className="text-center md:tracking-wider mb-8 text-sm md:text-lg lg:text-xl font-thin">
-            your vision, our expertise
+            (known for creating Robust Automation Workflows)
           </p>
-          <span className="inline-block backdrop-blur-md bg-white/30 text-white-800 font-thin py-2 px-5 rounded-full" style={{ fontFamily: 'Poppins, sans-serif' }}>
-          AI Agents | AI Visuals
-</span>
+          <DoubleHeroButton />
 
           <a href="#about">
             <MagicButton
-              title="continue"
+              title="know more"
               icon={<FaLocationArrow />}
               position="right"
             />

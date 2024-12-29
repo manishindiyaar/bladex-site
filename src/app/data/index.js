@@ -1,10 +1,10 @@
 export const navItems = [
   { name: "home", link: "/" },
   { name: "blogs", link: "/blog" },
-  { name: "about", link: "#about" },
+  { name: "about", link: "/about" },
   { name: "ai agents", link: "/ai-agent" },
   { name: "ai visuals", link: "ai-visual" },
-  { name: "contact", link: "#contact" },
+  { name: "contact", link: "/contact" },
   ];
   
   export const gridItems = [
@@ -152,13 +152,16 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/manishindiyaar",
     },
     {
       id: 2,
       img: "/twit.svg",
+      link: "https://x.com/humanish_ai",
     },
     {
       id: 3,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/manishindiyaar/",
     },
   ];

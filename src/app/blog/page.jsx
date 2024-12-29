@@ -33,36 +33,39 @@ export default async function BlogPage() {
 
         <div className="justify-center">
   {posts.map((post) => (
-    <div key={post.id} className="group relative flex w-full "> {/* Ensure full width */}
+    <div key={post.id} className="group relative flex "> 
       <Link href={`/blog/${post.id}`} className="block w-full m-3">
         <div className="p-4 flex flex-col h-full bg-gradient-to-b from-white-300 to-blue-800 rounded-lg shadow-md border border-white-500">
-          <div className="flex-shrink"> {/* This allows the content to take remaining space */}
+          <div className="flex-nowrap"> {/* This allows the content to take remaining space */}
             <h2 className="font-bold text-2xl mb-2 text-white-800">
               {post.title}
             </h2>
-            <p className="text-zinc-300 flex-shrink">
+            <p className="text-zinc-300 flex-col mb-4">
               {post.description}
             </p>
-            <div className="mt-auto flex items-center justify-between">
-              <p className="text-sm text-zinc-400">{post.date}</p>
-              <div className="flex items-center gap-4"> {/* Adjust gap here */}
+            <div className="mt-auto flex flex-col items-start justify-between mb-5 sm:flex-row sm:items-center sm:justify-between sm:gap-4">
+              <p className="text-sm text-zinc-400 border-l-2 border-zinc-800 bg-zinc-800/50 pl-1 mt-5 order-last sm:order-first">{post.date}</p>
+              <div className="flex items-center gap-2 flex-wrap order-first sm:order-last"> {/* Adjust gap here */}
                 {post.image && (
-                  <div className="w-10 h-10 bg-gray-200 rounded-2xl overflow-hidden flex-shrink-0">
+                  <div className="w-8 h-8 bg-gray-200 rounded-full overflow-hidden">
                     <img src={post.image} alt={post.title} className="w-full h-full object-cover rounded-lg" />
                   </div>
                 )}
                 {post.tags && (
-                  <div className="flex gap-2 flex-wrap">
-                    {post.tags.map((tag) => (
-                      <span
-                        key={tag}
-                        className="px-3 py-1 bg-zinc-800/50 text-zinc-300 rounded-full text-sm"
-                      >
-                        {tag}
-                      </span>
-                    ))}
+                  <div className="flex flex-wrap gap-1">
+                    <div className="flex flex-row gap-1">
+                      {post.tags.map((tag) => (
+                        <span
+                          key={tag}
+                          className="text-xs font-semibold px-2 py-1 bg-zinc-800/50 text-zinc-600 rounded-full "
+                        >
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
                   </div>
                 )}
+                
               </div>
             </div>
           </div>
