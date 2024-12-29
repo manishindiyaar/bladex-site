@@ -12,7 +12,7 @@ export default function ContactForm() {
             </div>
             <h1 className="text-5xl font-semibold tracking-tight">Contact us</h1>
             <p className="text-lg text-gray-400 max-w-md">
-              We are always looking for ways to streamline your workf and creating something robust.
+              We are always looking for ways to streamline your work and creating something robust.
             </p>
           </div>
 
