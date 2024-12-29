@@ -1,3 +1,11 @@
+---
+title: 'why we started Bladexo?'
+date: '2024-12-29'
+description: 'why do we call it a lab?'
+image: '/post_assets/manish.jpg'
+tags: ['nextjs', 'markdown', 'blog']
+---
+
 # The Lab: Reimagining New Era Through Technology
 
 It is not an agency, not a company, or a business.
