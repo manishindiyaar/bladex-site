@@ -1,15 +1,15 @@
 ---
-title: 'why we started Bladexo?'
+title: 'Why we started Bladex Lab?'
 date: '2024-12-29'
 description: 'why do we call it a lab?'
 image: '/post_assets/manish.jpg'
-tags: ['bladexo', 'bladexo_lab', 'why_lab']
+tags: ['bladex', 'bladex_lab', 'why_lab']
 ---
-It is not an agency, not a company, or a business.
+# It is not an agency, not a company, or a business.
 
 # It’s Lab. 
 
-& why do we call it a lab?
+and why do we call it a lab?
 
 You know, when I was in 10th or maybe 11th grade, I often wondered why there weren't any films focused on core subjects like physics or history. I wished for a film that could teach each chapter as an episode, especially in physics. How amazing would that be? 
 

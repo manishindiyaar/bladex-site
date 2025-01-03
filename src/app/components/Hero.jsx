@@ -50,7 +50,7 @@ const Hero = () => {
 
         <div>
         <Link href="/blog"> {/* Replace with your desired URL */}
-        <AnnouncementBanner message="why we started Bladexo Lab?" />
+        <AnnouncementBanner message="Why we started Bladex Lab?" />
       </Link>
     </div>
         
