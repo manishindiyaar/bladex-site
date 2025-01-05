@@ -15,8 +15,8 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Bladex Solution",
-  description: "Made with Love :)",
+  title: "Bladex Lab",
+  description: "known for cutting edge technolgies",
 };
 
 export default function RootLayout({ children }) {

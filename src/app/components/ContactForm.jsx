@@ -29,7 +29,7 @@ export default function ContactForm() {
 
             <div>
               <h3 className="text-gray-400 mb-1">Support</h3>
-              <p className="text-gray-300">manish.saw@@universalai.in</p>
+              <p className="text-gray-300">info@bladexlab.com</p>
             </div>
           </div>
         </div>

@@ -141,8 +141,8 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Curate your Brand presence",
-      desc: "from Creating an optimized website to logo to social media presence, everything is taken care by us",
+      title: "AR/VR Immersive Media",
+      desc: "we create best media assets from sound to visuals and from animation to 3d models . everything is take care by us to ensure a great immersive experience ",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },

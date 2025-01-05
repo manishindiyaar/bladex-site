@@ -1,15 +1,16 @@
 ---
 title: 'Why we started Bladex Lab?'
 date: '2024-12-29'
-description: 'why do we call it a lab?'
+description: 'i spent my entire day just for summing up all my thoughts and vission for Bladex Lab and what we are looking forward ?'
 image: '/post_assets/manish.jpg'
 tags: ['bladex', 'bladex_lab', 'why_lab']
 ---
-# It is not an agency, not a company, or a business.
+<strong> It is not an agency, not a company, or a business.
 
-# It’s Lab. 
+It’s Lab. </strong>
 
 and why do we call it a lab?
+
 
 You know, when I was in 10th or maybe 11th grade, I often wondered why there weren't any films focused on core subjects like physics or history. I wished for a film that could teach each chapter as an episode, especially in physics. How amazing would that be? 
 
@@ -33,7 +34,11 @@ Over the next 30 days, we dedicated 7-8 hours daily to this project. During that
 
 It was all just experimentation.
 
-Similarly, let me share another story. I come from a very underprivileged, tier-3 village, where advanced technology like smartphones was rare. The first time I saw a smartphone interacting with a human, I was amazed (I didn’t realize it was just Google Assistant). The way I felt at that moment is one of the reasons why I am working on these types of projects. 
+
+
+Similarly, let me share another story. I come from a very underprivileged, tier-3 village, where advanced technology like smartphones was rare. 
+The first time I saw a smartphone interacting with a human, I was amazed (I didn’t realize it was just Google Assistant). 
+The way I felt at that moment is one of the reasons why I am working on these types of projects. 
 
 I’ve been involved with large language models (LLMs) for quite a while, and it’s all about interacting with users through conversation.
 
@@ -41,7 +46,8 @@ I’m grateful that I’ve been able to experiment with this technology, which h
 
 When AI was emerging, I started from reading research papers to building apps with ai, i went all the way.
 
-As large language models (LLMs) improved, new features were introduced, including function calling. This means we can invoke external APIs or data within the LLM's input or output as JSON. While this may seem straightforward, it marks the beginning of a new era—an era of autonomy means a system that can take action on behalf of itself.
+As large language models (LLMs) improved, new features were introduced, including function calling. 
+This means we can invoke external APIs or data within the LLM's input or output as JSON. While this may seem straightforward, it marks the beginning of a new era—an era of autonomy means a system that can take action on behalf of itself.
 
 for memory for LLM applications, Retrieval-Augmented Generation (RAG), also known as semantic search, involves searching not by if-else logic but by using context.
 
@@ -56,3 +62,5 @@ Apart from that, we are also creating a community where like-minded people can c
 It’s a Lab about new cutting-edge Technologies.
 
 it’s a lab about Education.
+
+it's great to be part of it.
